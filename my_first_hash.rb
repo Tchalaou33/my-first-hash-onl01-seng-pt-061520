@@ -13,7 +13,6 @@ the_manifest = {"whale bone corsets" =>"5",
      the_manifest           
 end
 
-# the_manifest
 
 def retrieval
   shipping_manifest = {
@@ -21,7 +20,8 @@ def retrieval
                   "porcelain vases" => 2, 
                   "oil paintings" => 3
                  }
-     shipping_manifest["oil_paintings"]             
+     shipping_manifest["oil_paintings"]  
+     
 end
 # shipping_manifest["oil_paintings"] 
 
@@ -31,6 +31,7 @@ def adding
                   "porcelain vases" => 2,  
                   "oil paintings" => 3
                  }
+                 
   shipping_manifest["muskets"]="2"
 
   shipping_manifest["gun powder"]="4"  
