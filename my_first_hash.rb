@@ -9,7 +9,10 @@ def shipping_manifest
 the_manifest = {"whale bone corsets" =>"5", 
                 "porcelain vases" => "2", 
                 "oil paintings" =>"3"}
+                
+                
 end
+
 the_manifest
 
 def retrieval
@@ -32,7 +35,7 @@ def adding
 
   shipping_manifest["gun powder"]="4"  
 
-   shipping_manifest
+  shipping_manifest
   
 end
 # shipping_manifest
